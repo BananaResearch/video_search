@@ -1,0 +1,16 @@
+The image is a photo of a page of a textbook.
+
+Please concisely describe the content of the image,
+and list the keywords (<=3) of the learning points and/or key takeaways if available.
+Please focus on the main content of the image, and ignore any irrelevant or trivial information or any concept without sufficient context.
+Main contain means the content that occupies the majority of the image area.
+
+Finally, output your keywords as a JSON list. Make sure it can be parsed by json.loads().
+For example:
+```json
+["加法","加法交换率"]
+```
+
+Please use the language of the textbook for your keywords.
+Please make sure wrap your list expression in triple-backticks, so that it can be parsed correctly.
+If the image only contains examples or exercises, just output an empty list '[]'.

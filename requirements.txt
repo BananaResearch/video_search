@@ -1,0 +1,8 @@
+gradio==4.44.0
+moviepy==1.0.3
+openai==1.47.0
+Pillow==10.4.0
+pydub==0.25.1
+python-dotenv==1.0.1
+qdrant_client==1.11.2
+tenacity==8.5.0

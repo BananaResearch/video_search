@@ -1,0 +1,38 @@
+Here is a transcript of a video:
+<full_text>
+{text}
+</full_text>
+
+We also have timestamped raw segments:
+<raw_segments>
+{segments}
+</raw_segments>
+
+It is known that the content is educational.
+
+Please summarize content into the two parts:
+1. The overall learning points and/or key takeaways;
+2. A list of topics of segments with their start and end timestamps.
+  - Please combine the above raw segments into topics.
+  - You can skip small pieces in the raw segments if they consist of trivial information.
+
+Please make your summary focused on the learning points/key takeaways, do not go into the details of example problems or exercises.
+If you have to use mathematical expressions in your summary, please use MathJax format.
+
+An example of formatted summary:
+<summary>
+**摘要**：这个视频讲解乘法交换率
+
+**学习要点**
+  - 乘法交换率的定义
+  - 什么时候使用乘法交换率
+
+**视频内容**
+  - 开始~00:01:40：乘法交换率的定义
+  - 00:01:40~00:02:31：乘法交换率的应用
+  - 00:02:35~结束：乘法交换率的练习
+</summary>
+
+When you output, please use the original language of the transcript.
+Please strictly follow the Markdown format as in the above example.
+Please always wrap your response in <summary> and </summary> tags.
