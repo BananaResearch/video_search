@@ -141,7 +141,7 @@ def main():
 
     demo = create_demo()
     data_dir = os.path.abspath(os.path.join(WORKING_DIR, VIDEO_DIR))
-    demo.launch(server_name="0.0.0.0", server_port=args.port, allowed_paths=[data_dir])
+    demo.launch(server_name="0.0.0.0", server_port=args.port, allowed_paths=[data_dir], root_path="/video-search")
 
 
 if __name__ == "__main__":
